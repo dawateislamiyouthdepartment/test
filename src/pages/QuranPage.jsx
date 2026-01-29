@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
-import Card from '../ui/Card';
-import { QURAN_DATA } from '../../data/mockData';
+import Card from '../components/ui/Card';
+import { QURAN_DATA } from '../data/mockData';
 
 const QuranPage = () => {
     const [selectedSurah, setSelectedSurah] = useState(QURAN_DATA[0]);

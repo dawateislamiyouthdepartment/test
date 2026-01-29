@@ -1,8 +1,8 @@
 import React from 'react';
 import { MapPin } from 'lucide-react';
-import Card from '../ui/Card';
-import Button from '../ui/Button';
-import { CENTRES_DATA } from '../../data/mockData';
+import Card from '../components/ui/Card';
+import Button from '../components/ui/Button';
+import { CENTRES_DATA } from '../data/mockData';
 
 const CentresPage = () => {
     // Placeholder for map functionality

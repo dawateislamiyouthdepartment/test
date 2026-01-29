@@ -1,8 +1,8 @@
 import React from 'react';
 import { Search, PlayCircle, BookOpen, Download } from 'lucide-react';
-import Card from '../ui/Card';
-import Badge from '../ui/Badge';
-import { RESOURCES_DATA } from '../../data/mockData';
+import Card from '../components/ui/Card';
+import Badge from '../components/ui/Badge';
+import { RESOURCES_DATA } from '../data/mockData';
 
 const ResourcesPage = () => {
     return (

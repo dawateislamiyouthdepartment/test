@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Calendar, MapPin, Clock } from 'lucide-react';
-import Card from '../ui/Card';
-import Badge from '../ui/Badge';
-import Button from '../ui/Button';
-import { EVENTS_DATA } from '../../data/mockData';
+import Card from '../components/ui/Card';
+import Badge from '../components/ui/Badge';
+import Button from '../components/ui/Button';
+import { EVENTS_DATA } from '../data/mockData';
 
 const EventsPage = () => {
     const [filter, setFilter] = useState('All');
